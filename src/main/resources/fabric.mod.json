@@ -3,15 +3,15 @@
 	"id": "stardewcraft",
 	"version": "${version}",
 	"name": "StardewCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Bring Stardew Valley mechanics to Minecraft.",
 	"authors": [
-		"Me!"
+		"dumi"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/N0TM3-1/StardewCraft"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/stardewcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
