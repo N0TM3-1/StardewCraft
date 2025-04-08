@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "stardewcraft",
+	"version": "${version}",
+	"name": "StardewCraft",
+	"description": "Brings Stardew Valley mechanics to Minecraft",
+	"authors": [
+		"Dumi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.dumi.StardewCraft"
+		],
+		"client": [
+			"me.dumi.StardewCraftClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
